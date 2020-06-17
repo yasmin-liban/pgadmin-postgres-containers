@@ -2,9 +2,9 @@
 Bash script for creating and connecting Dockers containers containing pgadmin and postgres.
 
 ### Technologies used
- - [Postgres] (https://www.postgresql.org/)
- - [pgadmin4] (https://www.pgadmin.org/)
- - [Docker] (https://www.docker.com/)
+ - [Postgres](https://www.postgresql.org/)
+ - [pgadmin4](https://www.pgadmin.org/)
+ - [Docker](https://www.docker.com/)
 
 ### Requirements
 - Docker installed;
