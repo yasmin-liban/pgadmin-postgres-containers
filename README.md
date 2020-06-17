@@ -14,4 +14,8 @@ Installing programs, especially those used for development, can leave residual f
 Using a virtualization tool like Docker we have the modularization of your applications in "boxes" so if they beggin to break we can simply and quickly delete them without compromising the base operating system.
 ## Important notes
  - run the script as root;
- - replace the instance variables with your own info.
+ - replace the instance variables with your own info;
+ - before running the script, run
+  ```
+   chmod 777 pgadmin_postgres.sh
+  ```
