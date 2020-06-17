@@ -1,14 +1,17 @@
-# pgadmin-postgres-containers
-Script bash para criação e conexão de containers Dockers contendo o pgadmin e o postgres.
+ # pgadmin-postgres-containers
+Bash script for creating and connecting Dockers containers containing pgadmin and postgres.
 
-### Tecnologias utilizadas
- - [Postgres](https://www.postgresql.org/)
- - [pgadmin4](https://www.pgadmin.org/)
- - [Docker](https://www.docker.com/)
+### Technologies used
+ - [Postgres] (https://www.postgresql.org/)
+ - [pgadmin4] (https://www.pgadmin.org/)
+ - [Docker] (https://www.docker.com/)
 
-### Requisitos
-- Docker instalado;
-- conexão a internet;
-### Porque usar estes serviços a partir de conteiners de virtualização e não somente instalar direto no próprio sistema operacional?
-Instalação de programas, principalmente aqueles usados para desenvolvimento, podem deixar arquivos reśiduos que, caso aja problema na instalação ou nescessidade de uma reinstalação, dificulte a sua vida.
-Usando uma ferramenta de virtualizaão como o Docker temos a modularização dos seus aplicativos em "caixinhas" que caso começem a quebrar podemos simples e rapidamente exclui-las sem comprometer o sistema operacional base.
+### Requirements
+- Docker installed;
+- internet connection;
+### Why use these services from virtualization containers and not just install directly into the operating system itself?
+Installing programs, especially those used for development, can leave residual files that, if there is a problem with the installation or the need for a reinstall, can make your life difficult.
+Using a virtualization tool like Docker we have the modularization of your applications in "boxes" so if they beggin to break we can simply and quickly delete them without compromising the base operating system.
+## Important notes
+ - run the script as root;
+ - replace the instance variables with your own info.
