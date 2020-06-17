@@ -1,5 +1,5 @@
 # pgadmin-postgres-containers
-Script bash para criação e conexão de containers Dockers com o pgadmin e o postgres.
+Script bash para criação e conexão de containers Dockers contendo o pgadmin e o postgres.
 
 ### Tecnologias utilizadas
  - [Postgres](https://www.postgresql.org/)
